@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.intro {
+  margin: 15px 0;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background-color: #ddd;
+  margin: 30px 0;
+}
+
+.skills-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skillset h3 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.skill-category {
+  margin-bottom: 25px;
+}
+
+.skill-category h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.skill-item {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  display: inline-block;
+  width: 150px;
+  font-weight: bold;
+}
+
+.skill-bar {
+  display: inline-block;
+  width: calc(100% - 160px);
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: #4CAF50;
+  border-radius: 10px;
+}
+
+.skill-percentage {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 12px;
+}
