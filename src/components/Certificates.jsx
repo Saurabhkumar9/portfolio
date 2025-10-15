@@ -31,7 +31,35 @@ const Certificates = () => {
       issuer: "Youtube",
       date: "July 13 2024",
       imageUrl: `${assets.html}`
-    }
+    },
+    {
+      id: 5,
+      title: "JavaScript Fundamentals",
+      issuer: "GreatStack",
+      date: "",
+      imageUrl: `${assets.certificate1}`
+    },
+    {
+      id: 6,
+      title: "Full Stack E-commerce",
+      issuer: "GreatStack",
+      imageUrl: `${assets.certificate2}`
+    },
+    {
+      id: 7,
+      title: "Full Stack Food Delivery",
+      issuer: "GreatStack",
+      date: "",
+      imageUrl: `${assets.certificate3}`
+    },
+    {
+      id: 8,
+      title: "REACT JS",
+      issuer: "GreatStack",
+      date: "",
+      imageUrl: `${assets.certificate4}`
+    },
+    
   ];
 
   return (

@@ -1,11 +1,16 @@
 import cer from '../assets/cer.jpg';
 import cer2 from '../assets/cer2.png';
 import html from '../assets/html.png';
+import certificate1 from '../assets/certificate (1).png'
+import certificate2 from '../assets/certificate (2).png'
+import certificate3 from '../assets/certificate (3).png'
+import certificate4 from '../assets/certificate (4).png'
+import certificate5 from '../assets/certificate (5).png'
 import javaScript from '../assets/javascript.png';
 import img from '../assets/img.jpg';
 
 export const assets={
-    cer,html,javaScript,img,cer2
+    cer,html,javaScript,img,cer2,certificate1,certificate2,certificate3,certificate4,certificate5
 }
 
  export const Data = [
