@@ -15,7 +15,7 @@ const Education = () => {
     {
       title: "B.Tech in Computer Science",
       subtitle: "Khwaja Moinuddin Chishti Language University, Lucknow",
-      date: "June 2021 - Present",
+      date: "June 2021 - June 2025",
       details: [
         "Current SGPA: 8.33",
         "Focused on web development, databases, and software engineering principles.",

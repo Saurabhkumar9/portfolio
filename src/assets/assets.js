@@ -14,38 +14,37 @@ export const assets={
 }
 
  export const Data = [
-     {
+  {
     id: 11,
-    title: 'Vindhya Almirah ',
-    description: 'A group project showcasing steel almirah industry details. Developed the backend admin panel and user-facing systems. Created responsive UI components using Tailwind CSS and implemented database architecture for inventory management.',
+    title: 'Vindhya Almirah (E-commerce)',
+    description: 'A collaborative **full-stack e-commerce project** for a steel almirah industry. I **developed the backend admin panel** and user-facing systems, focusing on **inventory management** and database architecture. The responsive UI was built using **Tailwind CSS**.',
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST API'],
     category: 'FULL STACK',
     demoLink: 'https://www.vindhyaalmirah.com/',
     image: 'https://m.media-amazon.com/images/I/71AAjtzULWL._AC_UF894,1000_QL80_.jpg'
   },
-   {
+  {
     id: 10,
-    title: 'School Management System (Full Stack)',
-    description: 'Developed a comprehensive school management system with features like student enrollment, attendance tracking, grade management, and administrative dashboard. Implemented secure user authentication and role-based access control.',
+    title: 'School Management System (MERN Stack)',
+    description: 'Developed a **comprehensive school management system** encompassing student enrollment, attendance tracking, and grade management. Features include a dedicated administrative dashboard and **secure JWT authentication with role-based access control**.',
     technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
     category: 'FULL STACK',
     codeLink: 'https://github.com/Saurabhkumar9/school-management',
     image: 'https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
   },
- 
   {
     id: 9,
-    title: 'Kranti Backend (Node.js API)',
-    description: 'Developed RESTful APIs for a community-driven platform with user authentication and role-based access. Integrated Cloudmary for secure image uploads and storage, optimizing media delivery.',
-    technologies: ['Node.js', 'Express.js', 'MongoDB', 'Cloudmary'],
+    title: 'Kranti Backend (RESTful API)',
+    description: '**Designed and implemented RESTful APIs** for a community-driven platform. Features robust **user authentication** and **role-based access**. **Integrated Cloudinary** for secure, optimized image uploads and storage.',
+    technologies: ['Node.js', 'Express.js', 'MongoDB', 'Cloudinary'],
     category: 'BACKEND',
     demoLink: 'https://play.google.com/store/apps/details?id=com.kranti.app',
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'
   },
   {
     id: 8,
-    title: 'E-Commerce Platform',
-    description: 'Built a full-stack e-commerce solution with React frontend and Node.js backend, featuring product management, cart functionality, and payment integration.',
+    title: 'E-Commerce Platform (MERN Stack)',
+    description: 'Built a **full-stack e-commerce application** with robust product management, cart functionality, and secure checkout. **Integrated Stripe for seamless payment processing** to handle transactions.',
     technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
     category: 'FULL STACK',
     codeLink: 'https://github.com/Saurabhkumar9/Mern-project-e-comm/tree/master',
@@ -53,18 +52,18 @@ export const assets={
   },
   {
     id: 7,
-    title: 'Learning Management System',
-    description: 'Designed an e-learning platform with JWT authentication, AI-generated notes, and role-based access control (RBAC). Features include course management, progress tracking, and interactive quizzes.',
+    title: 'Learning Management System (LMS)',
+    description: 'Developed an **e-learning platform** featuring course management, progress tracking, and interactive quizzes. **Implemented JWT authentication** and utilized **AI integration for note generation** and RBAC.',
     technologies: ['React.js', 'Node.js', 'MongoDB', 'JWT'],
     category: 'FULL STACK',
     codeLink: 'https://github.com/Saurabhkumar9/newlms',
-    demoLink:'https://newlms-rjfg-git-main-saurabhs-projects-6e29a577.vercel.app/',
+    demoLink: 'https://newlms-rjfg-git-main-saurabhs-projects-6e29a577.vercel.app/',
     image: 'https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60'
   },
   {
     id: 6,
-    title: 'Blog Website (Full Stack)',
-    description: 'Built a dynamic blog platform where users can create, update, and delete blog posts while exploring content through search and filter options. Integrated JWT-based authentication, like/comment functionality.',
+    title: 'Blog Website (MERN Stack)',
+    description: 'Built a dynamic blog platform enabling users to **create, edit, and manage posts**. Features include robust **JWT-based authentication**, like/comment functionality, and search/filter options for content exploration.',
     technologies: ['React.js', 'Node.js', 'MongoDB', 'Tailwind CSS'],
     category: 'FULL STACK',
     codeLink: 'https://github.com/Saurabhkumar9/Blog-webiste',
@@ -73,8 +72,8 @@ export const assets={
   },
   {
     id: 5,
-    title: 'Music Website (Front-End)',
-    description: 'Created a dynamic UI for Hindi/Bhojpuri music with responsive design. Features include music player controls, playlist management, and artist sections.',
+    title: 'Music Website UI (Front-End)',
+    description: 'Created a dynamic and **fully responsive UI** for a Hindi/Bhojpuri music player. Features include detailed music player controls, playlist management, and dedicated artist sections.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     category: 'FRONTEND',
     codeLink: 'https://github.com/Saurabhkumar9/music',
@@ -83,8 +82,8 @@ export const assets={
   },
   {
     id: 4,
-    title: 'To-Do List App',
-    description: 'Developed a functional to-do list application allowing users to add, edit, and delete tasks efficiently. Implemented features such as task prioritization and responsive design.',
+    title: 'To-Do List Application',
+    description: 'Developed a **functional and responsive to-do list** application. Allows users to seamlessly add, edit, and delete tasks, with features for efficient **task prioritization and management**.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     category: 'FRONTEND',
     codeLink: 'https://github.com/Saurabhkumar9/todo-webapp',
@@ -92,8 +91,8 @@ export const assets={
   },
   {
     id: 3,
-    title: 'Netflix & Amazon Clone',
-    description: 'Developed Amazon and Netflix clones using HTML and CSS, accurately replicating the design and layout of both platforms.',
+    title: 'Netflix & Amazon UI Clones',
+    description: 'Accurately **replicated the modern design and responsive layout** of both the Netflix and Amazon platforms using only **HTML and CSS** to demonstrate foundational styling skills.',
     technologies: ['HTML', 'CSS'],
     category: 'FRONTEND',
     codeLink: 'https://github.com/Saurabhkumar9/Netflix-clone',
@@ -102,7 +101,7 @@ export const assets={
   {
     id: 2,
     title: 'Rock, Paper, Scissors Game',
-    description: 'Developed an interactive Rock, Paper, Scissors game using vanilla JavaScript, focusing on dynamic UI and gameplay logic with real-time score tracking.',
+    description: 'Developed an **interactive game** using vanilla **JavaScript**. Focus on core **gameplay logic**, dynamic UI updates, and real-time score tracking for a smooth user experience.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     category: 'FRONTEND',
     codeLink: 'https://github.com/Saurabhkumar9/Rock-scissors-and-paper',
@@ -111,7 +110,7 @@ export const assets={
   {
     id: 1,
     title: 'Tic-Tac-Toe Game',
-    description: 'Developed an interactive Tic-Tac-Toe game using JavaScript, designed with a responsive layout and smooth user interactions.',
+    description: 'Created a classic, interactive Tic-Tac-Toe game using **JavaScript**. Designed with a **responsive layout** to ensure smooth and enjoyable user interactions across various devices.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     category: 'FRONTEND',
     codeLink: 'https://github.com/Saurabhkumar9/tic-tac-toe',

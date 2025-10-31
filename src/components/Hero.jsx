@@ -36,15 +36,30 @@ const Hero = () => {
           </motion.div>
 
           {/* Description with animation */}
-          <motion.p
+          <motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.9, ease: "easeOut" }}
+  className="mt-6 max-w-2xl mx-auto text-center space-y-4"
+>
+  <p className="text-xl text-gray-200 leading-relaxed">
+    A passionate <span className="text-indigo-400 font-semibold">Full Stack Developer</span> 
+    skilled in creating secure, scalable, and user-friendly web applications.
+  </p>
+  {/* <p className="text-xl text-gray-300 leading-relaxed">
+    Proficient in <span className="text-indigo-400 font-semibold">React.js, Node.js, Express.js,</span> 
+    and <span className="text-indigo-400 font-semibold">MongoDB</span>, with hands-on experience 
+    in both frontend and backend development.
+  </p> */}
+</motion.div>
+
+
+  <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="mt-6 max-w-lg mx-auto text-lg text-gray-300"
-          >
-            Passionate about building secure, scalable web applications with expertise in React.js, Node.js, Express.js, and MongoDB.
-          </motion.p>
-
+          ></motion.p>
           {/* Buttons with animation */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

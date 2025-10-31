@@ -168,7 +168,7 @@ const About = () => {
                   Express.js, and MongoDB.
                 </div>
                 <div>
-                  I'm currently pursuing my B.Tech in Computer Science and
+                  I have successfully completed my B.Tech in Computer Science and
                   Engineering from{" "}
                   <strong>Khwaja Moinuddin Chishti Language University</strong>,
                   Lucknow, with a current SGPA of <strong>8.33</strong>.
