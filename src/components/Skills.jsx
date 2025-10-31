@@ -30,7 +30,7 @@ const Skills = () => {
     { name: "Cloudinary", tier: "Intermediate" },
     { name: "Nodemailer", tier: "Familiar" },
     { name: "Stripe", tier: "Familiar" },
-    { name: "Stripe", tier: "Familiar" },
+    
   ],
   "Soft Skills": [
     { name: "Problem Solving", tier: "Expert" },
